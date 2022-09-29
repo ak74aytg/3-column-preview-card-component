@@ -1,0 +1,54 @@
+@font-face {
+    font-family: "Lexend Deca";
+    src: url("./LexendDeca-VariableFont_wght.ttf");
+}
+@font-face {
+    font-family: "Big Shoulder Display";
+    src: url("./BigShouldersDisplay-VariableFont_wght.ttf");
+}
+
+.sedans{
+    background-color:hsl(31, 77%, 52%)!important;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+.suvs{
+    background-color:hsl(184, 100%, 22%)!important;
+}
+.luxury{
+    background-color:hsl(179, 100%, 13%)!important;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+p{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: "Lexend Deca";
+}
+h1{
+    font-family: "Big Shoulder Display";
+    color: hsl(0, 0%, 95%);
+    font-weight: 700;
+}
+.btn{
+    padding: 0.5rem 0.95rem;
+    background: hsl(0, 0%, 95%);
+}
+
+button:hover{
+    color: hsl(0, 0%, 95%)!important;
+}
+
+
+
+@media (max-width: 768px){
+    .sedans{
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+        border-bottom-left-radius: 0px;
+    }
+    .luxury{
+        border-bottom-right-radius: 8px;
+        border-bottom-left-radius: 8px;
+        border-top-right-radius: 0px;
+    }
+}
